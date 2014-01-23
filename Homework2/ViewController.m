@@ -20,8 +20,6 @@
     
     [self setBackgroundColor];
     
-
-    
     [self disaplyHelpLable];
 }
 
@@ -56,7 +54,7 @@
 
 - (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    NSLog(@"Touched screen");
+    NSLog(@"Touched screen with my mouse");
     [self displayImage];
 }
 
